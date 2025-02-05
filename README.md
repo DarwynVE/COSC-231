@@ -1,4 +1,4 @@
-# COSC-350-GROUP
+# COSC-231-GROUP
 A few pointers.
 - Goal is to make a weekly commit to main.
 - ETC
