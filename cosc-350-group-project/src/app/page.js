@@ -7,7 +7,7 @@ export default function Home() {
     </div>
   );
 }*/
-import InventoryTable from "./app/InventoryTable";
+import InventoryTable from "./InventoryTable";
 
 function App() {
   return (
