@@ -1,4 +1,4 @@
-import Image from "next/image";
+/*import Image from "next/image";
 
 export default function Home() {
   return (
@@ -6,4 +6,15 @@ export default function Home() {
       <h1>SpaceHolder</h1>
     </div>
   );
+}*/
+import InventoryTable from "./app/InventoryTable";
+
+function App() {
+  return (
+    <div className="p-6">
+      <InventoryTable />
+    </div>
+  );
 }
+
+export default App;
