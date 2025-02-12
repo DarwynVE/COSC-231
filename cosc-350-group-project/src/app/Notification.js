@@ -1,7 +1,7 @@
 // Import necessary CSS for styling the notification
 // Import React, necessary for creating React components
 import React from 'react';
-import './notification.css';
+import './Notification.css';
 
 // Define a functional component named 'Notification' which takes 'show', 'message', and 'onClose' as props
 const Notification = ({ show, message, onClose }) => {
@@ -10,11 +10,11 @@ const Notification = ({ show, message, onClose }) => {
 
   return (
     // JSX to render the notification if 'show' is true
-    <div className="notification">
-      // Display the message passed as a prop
+    //Display the message passed as a prop //
+    // Button to close the notification, calls 'onClose' function when clicked//
+    <div className="Notification"> 
       <span>{message}</span>
-      // Button to close the notification, calls 'onClose' function when clicked
-      <button onClick={onClose}>X</button>
+      <button className="close-button" onClick={onClose}>X</button>
     </div>
   );
 };
