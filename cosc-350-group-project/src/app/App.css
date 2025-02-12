@@ -1,0 +1,26 @@
+/* Styles for the notification div */
+.notification {
+    /* Position the notification at the top right corner of the screen */
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    /* Set background color, text color, padding, and rounded corners */
+    background: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    /* Ensure it appears above other elements */
+    z-index: 1000;
+  }
+  
+  /* Styles for the close button within the notification */
+  .notification button {
+    /* Make the button transparent with no border, matching the notification's background */
+    background: transparent;
+    border: none;
+    color: white;
+    /* Change cursor to indicate it's clickable */
+    cursor: pointer;
+    /* Add some space between the message and the button */
+    margin-left: 10px;
+  }
