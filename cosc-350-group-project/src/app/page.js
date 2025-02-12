@@ -10,7 +10,7 @@ export default function Home() {
       <div className="image-container">
         <img
           src="https://via.placeholder.com/300"
-          alt="Placeholder"
+          alt="Placeholder" 
           className="App-logo"
           />
       </div>
