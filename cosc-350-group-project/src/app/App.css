@@ -6,7 +6,7 @@
     right: 10px;
     /* Set background color, text color, padding, and rounded corners */
     background: #f44336;
-    color: white;
+    color: rgb(104, 103, 103);
     padding: 10px 20px;
     border-radius: 4px;
     /* Ensure it appears above other elements */
