@@ -1,0 +1,25 @@
+.homeHeader {
+    margin-top: 1em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.homeSlogan {
+    margin-top: 1em;
+    padding-bottom: 2em;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 2px solid black;
+}
+
+.homeDescription {
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: 2em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.descriptionText {
+    margin-bottom: 2em;
+}
